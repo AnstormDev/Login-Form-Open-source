@@ -1,0 +1,139 @@
+body{    
+    background: url(resources/architecture-1868667_1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', 'sans-serif';
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.login-box{
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    backdrop-filter: blur(5px);
+    border: 1.5px solid white;
+}
+.login-box h1{
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.login-form-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    width: 250px;
+    border-radius: 20px;
+    margin-left: 75px;
+    margin-bottom: 40px;
+}
+.login-form-1 ion-icon{
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+.login-form-1 input{
+    height: 30px;
+    width: 200px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+.login-form-1 input::placeholder{
+    color: white;
+}
+.login-form-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    width: 250px;
+    border-radius: 20px;
+    margin-left: 75px;
+}
+.login-form-2 ion-icon{
+    font-size: 20px;
+    color: white;
+    margin-right: 10px;
+}
+.login-form-2 input{
+    height: 30px;
+    width: 200px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+.login-form-2 input::placeholder{
+    color: white;
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-top: 10px;
+    margin-right: 75px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+.remember input{
+    border: none;
+}
+.member-div2{
+    display: flex;
+    align-items: center;
+}
+.member-div2 a{
+    font-size: 13px;
+    color: white;
+}
+.member-div1{
+    display: flex;
+    align-items: center;
+}
+.member-div1 p{
+    font-size: 13px;
+    color: white;
+    margin-left: 3px;
+}
+.login{
+    margin-top: 30px;
+    border: 2px solid white;
+    background: white;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-left: 100px;
+    padding: 10px 70px;
+    border-radius: 30px;
+    transition: .3s;
+}
+.login:hover{
+    color: white;
+    background: transparent;
+}
+.register{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #e0e0e0;
+}
+.register a{
+    text-decoration: none;
+    color: white;
+}
